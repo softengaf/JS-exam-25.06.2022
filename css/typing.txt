@@ -1,0 +1,409 @@
+@keyframes typing {
+    0% {
+        content: "A|";
+    }
+
+    1% {
+        content: "A |";
+    }
+
+    2% {
+        content: "A G|";
+    }
+
+    3% {
+        content: "A Gr|";
+    }
+
+    4% {
+        content: "A Gra|";
+    }
+
+    5% {
+        content: "A Grap|";
+    }
+
+    6% {
+        content: "A Graph|";
+    }
+
+    7% {
+        content: "A Graphi|";
+    }
+
+    8% {
+        content: "A Graphic|";
+    }
+
+    9% {
+        content: "A Graphic |";
+    }
+
+    10% {
+        content: "A Graphic D|";
+    }
+
+    11% {
+        content: "A Graphic De|";
+    }
+
+    13% {
+        content: "A Graphic Des|";
+    }
+
+    14% {
+        content: "A Graphic Desi|";
+    }
+
+    15% {
+        content: "A Graphic Desig|";
+    }
+
+    16% {
+        content: "A Graphic Design|";
+    }
+
+    17% {
+        content: "A Graphic Designe|";
+    }
+
+    18% {
+        content: "A Graphic Designer|";
+    }
+
+    19% {
+        content: "A Graphic Designer.|";
+    }
+
+    20% {
+        content: "A Graphic Designer.|";
+    }
+
+    21% {
+        content: "A Graphic Designer.|";
+    }
+
+    22% {
+        content: "A Graphic Designer|";
+    }
+
+    23% {
+        content: "A Graphic Designe|";
+    }
+
+    24% {
+        content: "A Graphic Design|";
+    }
+
+    25% {
+        content: "A Graphic Desig|";
+    }
+
+    25% {
+        content: "A Graphic Desi|";
+    }
+
+    26% {
+        content: "A Graphic Des|";
+    }
+
+    27% {
+        content: "A Graphic De|";
+    }
+
+    28% {
+        content: "A Graphic D|";
+    }
+
+    29% {
+        content: "A Graphic |";
+    }
+
+    30% {
+        content: "A Graphic|";
+    }
+
+    31% {
+        content: "A Graphi|";
+    }
+
+    32% {
+        content: "A Graph|";
+    }
+
+    33% {
+        content: "A Grap|";
+    }
+
+    34% {
+        content: "A Gra|";
+    }
+
+    35% {
+        content: "A Gr|";
+    }
+
+    36% {
+        content: "A G|";
+    }
+
+    37% {
+        content: "A |";
+    }
+
+    38% {
+        content: "A P|";
+    }
+
+    39% {
+        content: "A Ph|";
+    }
+
+    40% {
+        content: "A Pho|";
+    }
+
+    41% {
+        content: "A Phot|";
+    }
+
+    42% {
+        content: "A Photo|";
+    }
+
+    43% {
+        content: "A Photog|";
+    }
+
+    44% {
+        content: "A Photogr|";
+    }
+
+    45% {
+        content: "A Photogra|";
+    }
+
+    46% {
+        content: "A Photograp|";
+    }
+
+    47% {
+        content: "A Photograph|";
+    }
+
+    48% {
+        content: "A Photographe|";
+    }
+
+    49% {
+        content: "A Photographer|";
+    }
+
+    50% {
+        content: "A Photographer.|";
+    }
+
+    51% {
+        content: "A Photographer.|";
+    }
+
+    52% {
+        content: "A Photographer.|";
+    }
+
+    53% {
+        content: "A Photographer|";
+    }
+
+    54% {
+        content: "A Photographe|";
+    }
+
+    55% {
+        content: "A Photograph|";
+    }
+
+    56% {
+        content: "A Photograp|";
+    }
+
+    57% {
+        content: "A Photogra|";
+    }
+
+    58% {
+        content: "A Photogr|";
+    }
+
+    59% {
+        content: "A Photog|";
+    }
+
+    60% {
+        content: "A Photo|";
+    }
+
+    61% {
+        content: "A Phot|";
+    }
+
+    62% {
+        content: "A Pho|";
+    }
+
+    63% {
+        content: "A Ph|";
+    }
+
+    64% {
+        content: "A P|";
+    }
+
+    65% {
+        content: "A |";
+    }
+
+    66% {
+        content: "A|";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "K|";
+    }
+
+    69% {
+        content: "Ke|";
+    }
+
+    70% {
+        content: "Ker|";
+    }
+
+    71% {
+        content: "Kerr|";
+    }
+
+    72% {
+        content: "Kerri|";
+    }
+
+    73% {
+        content: "Kerri |";
+    }
+
+    74% {
+        content: "Kerri D|";
+    }
+
+    75% {
+        content: "Kerri De|";
+    }
+
+    76% {
+        content: "Kerri Deo|";
+    }
+
+    77% {
+        content: "Kerri Deo.|";
+    }
+
+    78% {
+        content: "Kerri Deo.|";
+    }
+
+    79% {
+        content: "Kerri Deo.|";
+    }
+
+    80% {
+        content: "Kerri Deo|";
+    }
+
+    81% {
+        content: "Kerri De|";
+    }
+
+    82% {
+        content: "Kerri D|";
+    }
+
+    83% {
+        content: "Kerri |";
+    }
+
+    84% {
+        content: "Kerri|";
+    }
+
+    85% {
+        content: "Kerr|";
+    }
+
+    86% {
+        content: "Ker|";
+    }
+
+    87% {
+        content: "Ke|";
+    }
+
+    88% {
+        content: "K|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    91% {
+        content: "|";
+    }
+
+    92% {
+        content: "|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+    /* Kerri Deo.| */
+    /* A Graphic Designer.| */
+    /* A Photographer.| */
+}

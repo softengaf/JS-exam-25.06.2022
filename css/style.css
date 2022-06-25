@@ -1,0 +1,329 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+
+a,ul{
+    text-decoration: none;
+ list-style-type: none;
+}
+
+body
+{
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+}
+
+
+header{
+    background-image: url(../images/);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.caption
+{
+    background-color: rgba(0,0,0,.5);
+}
+
+
+
+.navfadel li>a {
+
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: antiquewhite;
+
+}
+.navfadel  a:hover
+{
+color: brown;
+  
+
+}
+.social-logo  i:hover
+{
+color: brown;
+  
+
+}
+
+.vh-100 .carousel-item
+{
+    background-size: cover;
+    background-position: center;  
+    height: 100vh;
+ 
+}
+.i1{
+    background-image: url(../images/slideshow-1.jpg);
+}
+.i2{
+    background-image: url(../images/slideshow-2.jpg);
+}
+.i3{
+    background-image: url(../images/slideshow-3.jpg);
+}
+.slide-caption
+{
+    width: 100%;
+    height: 100%; 
+    animation: slide 1000ms;
+    position: relative;
+ 
+}
+
+@keyframes slide {
+    0%{  left: 1000px  ;}
+   100%{  left: 000px  ;}
+}
+
+.carousel-control-prev
+{
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    z-index: 2;
+
+}
+.carousel-control-next
+{
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    z-index: 2;
+}
+
+
+
+
+.scroll{
+    width:30px;
+    height: 10px;
+    position:absolute;
+    padding: 18px 10px;
+    bottom:40px;
+    left: 50%;
+  
+    z-index: 5;
+}
+
+
+.scroll::after{
+    content: "";
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    background-color:#fff;
+    position:absolute;
+    left:12px;
+    z-index: 6;
+    animation:scrolling 1s  infinite;
+    opacity: 1;
+
+}
+
+@keyframes scrolling
+{
+    0%{ bottom: 30px,}
+    0%{  opacity: 1;}
+    50%{ bottom: 15px;}
+    50%{  opacity: .6;}
+    100%{ bottom: 5px;}
+    100%{  opacity: .1;}
+}
+
+.setting
+{
+    background-color: #2b2424;
+    color:#fff;
+    top:20%;
+    position: fixed;
+    z-index: 6;
+}
+
+.setting i{
+    font-size: 20px;
+}
+
+.setting i:hover{
+    color:#e65f78;
+}
+
+.section-title  {
+
+    /* background-color: #e65f78; */
+    margin-bottom: 50px;
+    color: #0b2424;
+   
+}
+
+.section-title p {
+    font-size: 18px;
+    color: #999;
+    margin-bottom: 70px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #aca6a6;
+}
+
+.section-title h3 {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #000000;
+}
+
+
+
+.section-title .line {
+
+ background-color: #050505;
+ width: 5%;
+ height: 1px;
+ transition: all 400ms;
+}
+
+.section-title:hover .line
+
+{
+
+ width: 10%;
+
+}
+
+
+.progress {
+    height: 4px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+  
+}
+
+ .progress-title {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #444;
+
+ 
+}
+
+ .progress-value {
+    text-align: right;
+
+} 
+
+
+.progress-bar
+{
+ background-color: #f25454;
+}
+
+.otCardImgDiv
+{
+  
+    /* background-color: #f25454; */
+
+
+}
+
+.otCardImgDivCaption{
+background-color: rgba(241, 31, 31, 0.5);
+opacity: 0;
+transition: all .5s;}
+
+.otCardImgDiv img
+{
+transition: all .5s;
+}
+
+.otCardImgDivCaption:hover
+{opacity: 1;}
+
+.otCardImgDiv:hover  img
+{
+    transform: scale(1.1);
+}
+
+.otCard:hover  h4
+{
+   color: #f25454;
+}
+
+
+.otCardImgDivCaption  .social-icon li a
+{
+
+padding: 10px;
+margin-right: 10px;
+color: #fff;
+font-size: 1rem;
+
+
+  
+}
+
+.SCard h5:hover
+{
+
+    color: #f25454;
+}
+.SCard h5
+{
+
+    color: #1a1818;
+    transition: all .3s;
+}
+
+
+.carousel-indicators [data-bs-target]
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-indent: 0;
+    
+}
+
+
+.addresCon h4:hover
+{
+color: #f25454;
+}
+
+
+.footer a
+{
+text-decoration: none;
+background-color: #e65f78;
+}
+.footer 
+{
+
+background-color: #e65f78;
+}
+.rowUp
+{
+    background-color: rgba(241, 31, 31, 0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translatey(-50%);
+
+}
+/* end */
